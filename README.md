@@ -187,7 +187,7 @@
 - `images` — папка, содержащая графику проекта,
 - `index.html` — HTML-страница.
 
-Файла проекта должны соответствовать [правилам именования файлов](https://github.com/netology-code/codestyle/tree/master/naming).  
+Файлы проекта должны соответствовать [правилам именования файлов](https://github.com/netology-code/codestyle/tree/master/naming).  
 
 ### Публикация проекта
 
