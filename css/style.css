@@ -12,9 +12,10 @@
     font-style: normal;
 }
 
-html{
+html {
     background: #282828;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +33,7 @@ ul {
 body {
     background: #FFFFFF;
     width: 1660px;
-    margin: 0 auto; 
+    margin: 0 auto;
     /* background: #333333; */
     color: #FFFFFF;
     font-size: 18px;
@@ -55,8 +56,6 @@ body {
     box-sizing: border-box;
     background: url(../img/rock-731140_1920.jpg) no-repeat;
     background-position: center;
-    
-     
 }
 
 .header::after {
@@ -67,7 +66,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0; 
+    z-index: 0;
 }
 
 
@@ -78,21 +77,18 @@ body {
     margin: 0 20px;
     align-items: center;
     z-index: 3;
-    
 }
 
 
 .menu-logo {
     display: block;
     width: 200px;
-    
 }
 
 
 .header-nav {
     list-style-type: none;
     display: flex;
-    
 }
 
 .header-nav-link {
@@ -100,7 +96,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-}    
+}
 
 .navigation {
     display: flex;
@@ -124,24 +120,19 @@ body {
 }
 
 .trends {
-    
+
     width: 1660px;
     margin: 0 auto;
     height: 420px;
-    /* background-color: #FFFFFF; */
-    /* display: flex;  */
-    /*flex-direction: column;  */
     text-transform: uppercase;
-    
 }
 
 .trends-title {
     height: 120px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    /* background-color: #FFFFFF; */
 }
 
 .trends-title-text {
@@ -152,11 +143,7 @@ body {
 }
 
 .trends-units-wrp {
-    /* box-sizing: border-box;
-    position: relative; */
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
     height: 300px;
 }
 
@@ -178,26 +165,21 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1; 
-} 
+    z-index: 1;
+}
 
 img {
     width: 100%;
     height: 100%;
 }
-/* .trends-unit-picture {
-    position: relative;
-} */
 
 .trends-unit-text {
     position: absolute;
     bottom: 0;
     left: 0;
-    border: 3px solid #877c42 ;
+    border: 3px solid #877c42;
     margin: 15px 20px;
     padding: 40px 33px;
-    /* padding-left: 33px;
-    padding-bottom: 37px; */
     z-index: 2;
 }
 
@@ -206,7 +188,6 @@ img {
     color: #877c42;
     font-weight: bold;
     font-size: 14px;
-    /* z-index: 2; */
 }
 
 .trends-unit-title {
@@ -222,7 +203,6 @@ img {
     display: flex;
     margin: 64px 15px 64px 15px;
 }
-
 
 .posts {
     width: 770px;
@@ -242,7 +222,6 @@ ul {
     width: 770px;
     height: 290px;
     display: flex;
-    
 }
 
 .post-img {
@@ -259,10 +238,10 @@ ul {
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    
 }
 
-.post-date, .post-author p {
+.post-date,
+.post-author p {
     display: inline-block;
     font-size: 12px;
 }
@@ -308,22 +287,19 @@ ul {
 
 .new-post-title {
     height: 36px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    /* background-color: #FFFFFF; */
 }
 
 .new-post-title-text {
     color: black;
     font-size: 20px;
-    /* padding-bottom: 12px; */
 }
 
 .new-post {
     display: flex;
-    /* background-color: #FFFFFF; */
     margin-top: 20px;
     box-sizing: border-box;
 }
@@ -337,7 +313,6 @@ ul {
     padding-left: 20px;
 }
 
-
 .new-post-date {
     color: #878787;
     font-size: 12px;
@@ -350,20 +325,19 @@ ul {
     text-transform: uppercase;
 }
 
-
 .search {
-  display: flex;
-  margin: 0 auto;
-  box-sizing: border-box;
-  justify-content: center;
-  margin-bottom: 60px;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 
 .search-form {
     position: relative;
     width: 270px;
     margin: 0 auto;
-  }
+}
 
 
 .search-form input {
@@ -375,8 +349,9 @@ ul {
     background: #f4f7f6;
     color: #9E9C9C;
 }
+
 .search-form button {
-    position: absolute; 
+    position: absolute;
     top: 0;
     right: 0px;
     width: 50px;
@@ -395,11 +370,10 @@ ul {
     width: 270px;
     display: flex;
     flex-direction: column;
-    
-} 
+}
 
 .email-title {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
@@ -430,7 +404,7 @@ ul {
     height: 50px;
     border: none;
     background: #b59f5b;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -441,7 +415,7 @@ ul {
 }
 
 .tags-title {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
@@ -466,10 +440,6 @@ ul {
     margin-bottom: 6px;
 }
 
-/* .tags-item:nth-of-type(n+1) {
-    margin-left: 6px;
-} */
-
 .tags-item p {
     color: black;
     font-size: 12px;
@@ -479,7 +449,7 @@ ul {
 }
 
 .thems-title {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
@@ -511,7 +481,7 @@ ul {
 
 .thems-item p::first-letter {
     text-transform: uppercase;
-  }
+}
 
 .thems-name-number p {
     color: #b59f5b;
@@ -526,7 +496,7 @@ ul {
 }
 
 .shop-title {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
@@ -541,7 +511,7 @@ ul {
 }
 
 .shop-vitrina {
-    display: flex; 
+    display: flex;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -557,9 +527,8 @@ ul {
 .squ-img {
     width: 300px;
     height: 205px;
-    position: absolute; 
+    position: absolute;
     top: 0;
-    
 }
 
 .squ-content {
@@ -569,7 +538,6 @@ ul {
     width: 340px;
     height: 263px;
     border: 3px solid #b59f5b;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -584,22 +552,21 @@ ul {
     margin-bottom: 12px;
 }
 
-.squ-content-text a{
-    color:#b59f5b;
+.squ-content-text a {
+    color: #b59f5b;
     text-decoration: none;
 }
+
 .price-button {
     display: flex;
-    width: 300px; 
+    width: 300px;
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
 }
 
-
-
 .squ-price {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     font-size: 20px;
 }
