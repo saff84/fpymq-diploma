@@ -32,7 +32,7 @@ ul {
 
 body {
     background: #FFFFFF;
-    width: 1660px;
+    /* width: 1660px; */
     margin: 0 auto;
     /* background: #333333; */
     color: #FFFFFF;
@@ -74,7 +74,7 @@ body {
     display: flex;
     position: relative;
     justify-content: space-between;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     align-items: center;
     z-index: 3;
 }
@@ -98,6 +98,10 @@ body {
     text-transform: uppercase;
 }
 
+.header-nav-link:hover {
+    text-decoration: underline;
+}
+
 .navigation {
     display: flex;
 }
@@ -116,6 +120,7 @@ body {
     position: relative;
     font-size: 45px;
     text-align: center;
+    text-transform: uppercase;
     z-index: 2;
 }
 
@@ -140,6 +145,16 @@ body {
     font-size: 20px;
     margin-top: 60px;
     margin-bottom: 12px;
+}
+
+.trends-title-text::after {
+    content : "";
+    background-image: url("/sources/svg/tire.svg");
+    display: block;
+    width: 67px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 14px;
 }
 
 .trends-units-wrp {
@@ -183,7 +198,11 @@ img {
     z-index: 2;
 }
 
-.trends-unit-category p {
+.trends-unit-category li a:hover {
+    text-decoration: underline;
+}
+
+.trends-unit-category li {
     display: inline-block;
     color: #877c42;
     font-weight: bold;
