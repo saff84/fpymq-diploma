@@ -613,7 +613,7 @@ img {
     text-align: center;
 }
 
-.thems-item ul li p a:hover {
+.thems-item a:hover {
     color: #b59f5b;
 }
 
