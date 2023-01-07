@@ -149,7 +149,7 @@ body {
 
 .trends-title-text::after {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
@@ -327,7 +327,7 @@ img {
 
 .new-posts-title-text::after {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
@@ -409,7 +409,7 @@ img {
 
 .search-form button::before {
     content : "";
-    background-image: url("/sources/svg/search.svg");
+    background-image: url("../sources/svg/search.svg");
     color: #eeeeee;
     position: absolute;
     width: 20px;
@@ -449,7 +449,7 @@ img {
 
 .email-title-text::after {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
@@ -506,7 +506,7 @@ img {
 
 .tags-title-text::after {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
@@ -555,7 +555,7 @@ img {
 
 .thems-title-text::after {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
@@ -614,9 +614,9 @@ img {
     margin-bottom: 12px;
 }
 
-.shop-title-text::after {
+.. {
     content : "";
-    background-image: url("/sources/svg/tire.svg");
+    background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
     height: 3px;
