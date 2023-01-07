@@ -50,12 +50,14 @@ body {
 .header {
     position: relative;
     height: 450px;
-    width: 1660px;
+    /* width: 1660px; */
+    width: 100%;
     margin: 0 auto;
     padding-top: 27px;
     box-sizing: border-box;
     background: url(../img/rock-731140_1920.jpg) no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .header::after {
@@ -124,9 +126,20 @@ body {
     z-index: 2;
 }
 
-.trends {
+@media (min-width:1200px) {
+    .header-title {
+        position: relative;
+        max-width: 750px;
+        height: 107px;
+        text-align: center;
+        line-height: normal;
+        margin: 0 auto;
+    }
+}
 
-    width: 1660px;
+.trends {
+    align-items: center;
+    width: 100%;
     margin: 0 auto;
     height: 420px;
     text-transform: uppercase;
@@ -148,7 +161,7 @@ body {
 }
 
 .trends-title-text::after {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -163,7 +176,7 @@ body {
 }
 
 .trends-unit {
-    width: 415px;
+    width: 25%;
     position: relative;
     height: 300px;
 }
@@ -191,6 +204,7 @@ img {
 
 .trends-unit-text {
     position: absolute;
+    /* position: relative; */
     bottom: 0;
     left: 0;
     border: 3px solid #877c42;
@@ -216,6 +230,9 @@ img {
     font-size: 20px;
 }
 
+.trend-unit-title a:hover {
+    color: #877c42;
+}
 
 .posts-wrp {
     /* height: 1715px; */
@@ -259,6 +276,7 @@ img {
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    margin-right: 17px;
     padding-bottom: 15px;
 }
 
@@ -267,7 +285,7 @@ img {
 }
 
 .post-date-author {
-    padding-bottom: 55px;    
+    padding-bottom: 55px;
 }
 
 .post-date,
@@ -285,7 +303,11 @@ img {
     font-weight: bold;
     font-size: 20px;
     color: #000000;
-    padding-bottom: 35px; 
+    padding-bottom: 35px;
+}
+
+.post-title a:hover {
+    color: #877c42;
 }
 
 .post-author {
@@ -325,8 +347,12 @@ img {
     text-transform: uppercase;
 }
 
+.new-post-title a:hover {
+    color: #877c42;
+}
+
 .new-posts-title-text::after {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -381,7 +407,6 @@ img {
     margin: 0 auto;
 }
 
-
 .search-form input {
     width: 100%;
     height: 50px;
@@ -390,6 +415,10 @@ img {
     outline: none;
     background: #f4f7f6;
     color: #9E9C9C;
+}
+
+.search-form input:focus {
+    border-bottom: 1px solid #877c42;
 }
 
 .search-form button {
@@ -408,16 +437,16 @@ img {
 }
 
 .search-form button::before {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/search.svg");
     color: #eeeeee;
     position: absolute;
     width: 20px;
     height: 20px;
     margin: auto;
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
+    top: 0;
+    left: 0;
+    bottom: 0;
     right: 0;
 }
 
@@ -430,6 +459,10 @@ img {
     width: 270px;
     display: flex;
     flex-direction: column;
+}
+
+.email-form input:focus {
+    border-bottom: 1px solid #877c42;
 }
 
 .email-title {
@@ -448,7 +481,7 @@ img {
 }
 
 .email-title-text::after {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -505,7 +538,7 @@ img {
 }
 
 .tags-title-text::after {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -517,12 +550,13 @@ img {
 .tags-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .tags-item {
     border: 3px solid #f4f3f1;
     margin-bottom: 6px;
+    margin-right: 6px;
 }
 
 .tags-item a {
@@ -534,7 +568,7 @@ img {
     opacity: 0.5;
 }
 
-.tags-item a:hover{
+.tags-item a:hover {
     opacity: 1;
 }
 
@@ -554,7 +588,7 @@ img {
 }
 
 .thems-title-text::after {
-    content : "";
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -579,7 +613,7 @@ img {
     text-align: center;
 }
 
-.thems-item p:hover {
+.thems-item ul li p a:hover {
     color: #b59f5b;
 }
 
@@ -614,8 +648,8 @@ img {
     margin-bottom: 12px;
 }
 
-.. {
-    content : "";
+.shop-title-text::after {
+    content: "";
     background-image: url("../sources/svg/tire.svg");
     display: block;
     width: 67px;
@@ -667,11 +701,17 @@ img {
 }
 
 .squ-content-text {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    font-size: 15px;
 }
 
 .squ-content-text:hover {
-    opacity: 1;
+    /* opacity: 1; */
+    font-weight: 600;
+}
+
+.squ-content-text a:hover {
+    text-decoration: underline;
 }
 
 .squ-content-text a {
