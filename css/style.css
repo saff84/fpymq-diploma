@@ -237,7 +237,7 @@ img {
     /* position: relative; */
     bottom: 0;
     left: 0;
-    border: 3px solid #877c42;
+    border: 3px solid #b59f5b;
     margin: 15px 20px;
     padding: 40px 33px;
     z-index: 2;
@@ -249,7 +249,7 @@ img {
 
 .trends-unit-category li {
     display: inline-block;
-    color: #877c42;
+    color: #b59f5b;
     font-weight: bold;
     font-size: 14px;
 }
@@ -261,7 +261,7 @@ img {
 }
 
 .trend-unit-title a:hover {
-    color: #877c42;
+    color: #b59f5b;
 }
 
 .posts-wrp {
@@ -302,7 +302,7 @@ img {
 
 .post-category li {
     display: inline-block;
-    color: #877c42;
+    color: #b59f5b;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
@@ -319,7 +319,7 @@ img {
 }
 
 .post-date,
-.post-author p {
+.post-author {
     display: inline-block;
     font-size: 12px;
 }
@@ -337,7 +337,7 @@ img {
 }
 
 .post-title a:hover {
-    color: #877c42;
+    color: #b59f5b;
 }
 
 .post-author {
@@ -378,7 +378,7 @@ img {
 }
 
 .new-post-title a:hover {
-    color: #877c42;
+    color: #b59f5b;
 }
 
 .new-posts-title-text::after {
@@ -449,7 +449,7 @@ img {
 }
 
 .search-form input:focus {
-    border-bottom: 1px solid #877c42;
+    border-bottom: 1px solid #b59f5b;
 }
 
 .search-form button {
@@ -493,7 +493,7 @@ img {
 }
 
 .email-form input:focus {
-    border-bottom: 1px solid #877c42;
+    border-bottom: 1px solid #b59f5b;
 }
 
 .email-title {
@@ -636,7 +636,7 @@ img {
     align-items: center
 }
 
-.thems-item {
+.thems-name {
     color: black;
     font-size: 14px;
     font-weight: bold;
@@ -974,7 +974,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     color: #eeeeee;
-    background-color: #877c42;
+    background-color: #b59f5b;
     border: none;
     cursor: pointer;
     margin-top: 20px;
