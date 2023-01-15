@@ -419,6 +419,7 @@ img {
 
 .new-post-title {
     color: #000000;
+    line-height: 18px;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -584,22 +585,22 @@ img {
 }
 
 .tags-item {
-    border: 3px solid #f4f3f1;
     margin-bottom: 6px;
     margin-right: 6px;
 }
 
 .tags-item a {
+    border: 3px solid #f4f3f1;
     color: black;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     padding: 6px 15px;
-    opacity: 0.5;
 }
 
+
 .tags-item a:hover {
-    opacity: 1;
+    border: 3px solid #b59f5b;
 }
 
 .thems-title {
@@ -635,7 +636,7 @@ img {
     align-items: center
 }
 
-.thems-item p {
+.thems-item {
     color: black;
     font-size: 14px;
     font-weight: bold;
@@ -643,15 +644,15 @@ img {
     text-align: center;
 }
 
-.thems-name a:hover {
+.thems-name:hover {
     color: #b59f5b;
 }
 
-.thems-item p::first-letter {
+.thems-item a::first-letter {
     text-transform: uppercase;
 }
 
-.thems-name-number p {
+.thems-name-number {
     color: #b59f5b;
     font-size: 12px;
     align-self: flex-start;
@@ -735,11 +736,6 @@ img {
     font-size: 15px;
 }
 
-.squ-content-text:hover {
-    /* opacity: 1; */
-    font-weight: 600;
-}
-
 .squ-content-text a:hover {
     text-decoration: underline;
 }
@@ -816,7 +812,9 @@ img {
 
 
 
-
+._hidden{
+    visibility: hidden;
+}
 
 .popup {
     position: fixed;
@@ -825,7 +823,6 @@ img {
     height: 100%;
     width: 100%;
     opacity: 1;
-    visibility: hidden;
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 5;
@@ -1041,7 +1038,7 @@ img {
     .post-img {
         width: 100%;
         height: auto;
-      }
+    }
 
     .post::after {
         content: "";
@@ -1057,10 +1054,11 @@ img {
         height: auto;
         padding: 50px 35px;
     }
-    
-    .servises:nth-child(){
+
+    .servises:nth-child() {
         width: 100%;
     }
+
     .new-posts-wrp {
         width: 100%;
     }
@@ -1078,6 +1076,7 @@ img {
         height: auto;
         padding: 0 35px;
     }
+
     .shop-vitrina {
         flex-wrap: wrap;
     }
@@ -1198,8 +1197,8 @@ img {
     }
 }
 
-@media (orientation:portrait) and (min-width: 641px) and (max-width: 1200px){
+@media (orientation:portrait) and (min-width: 641px) and (max-width: 1200px) {
     .trends-unit {
-     width: calc(50% - 2px);
+        width: calc(50% - 2px);
     }
-  }
+}
