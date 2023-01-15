@@ -316,16 +316,17 @@ img {
 
 .post-date-author {
     padding-bottom: 55px;
+    display:flex;
 }
 
 .post-date,
 .post-author {
-    display: inline-block;
     font-size: 12px;
 }
 
 .post-date {
     color: #989898;
+    margin-right: 10px;
 }
 
 .post-title {
