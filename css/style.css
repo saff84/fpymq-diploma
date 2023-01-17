@@ -586,12 +586,12 @@ img {
 }
 
 .tags-item {
+    border: 3px solid #f4f3f1;
     margin-bottom: 6px;
     margin-right: 6px;
 }
 
 .tags-item a {
-    border: 3px solid #f4f3f1;
     color: black;
     font-size: 12px;
     font-weight: bold;
@@ -847,21 +847,24 @@ img {
 }
 
 .form-popup {
-    max-width: 350px;
+    max-width: 390px;
     min-width: 200px;
     min-height: 300px;
+    max-height: 590px;
     padding: 50px;
     background: #fff;
     position: relative;
     color: #000000;
     opacity: 1;
     z-index: 7;
+    font-size: 13px;
 }
 
 .form-title {
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 40px;
+    padding-bottom: 27px;
+    font-size: 20px;
 }
 
 .form-title::after {
@@ -884,24 +887,25 @@ img {
     border: none;
     color: #878787;
     background-color: #f4f7f6;
-    font-size: 14px;
-    font-weight: bolder;
+    font-size: 13px;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-image: url(../sources/svg/form-arrows.svg);
     background-size: 8px;
     background-repeat: no-repeat;
     background-position: right 5px center;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
     cursor: pointer;
 }
 
 .form-radio {
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
+
 
 .form-radio-button {
     display: inline-block;
+    font-size: 13px;
 }
 
 .form-radio-button label {
@@ -951,7 +955,7 @@ img {
 }
 
 .form-textarea {
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .textarea {
@@ -961,10 +965,8 @@ img {
     min-height: 150px;
     background-color: #f4f7f6;
     font-family: inherit;
-    margin-top: 10px;
     padding: 15px 0 0 15px;
-    font-size: 14px;
-    font-weight: bolder;
+    font-size: 13px;
     resize: none;
     border: none;
 }
@@ -973,6 +975,7 @@ img {
     width: 100%;
     height: 50px;
     text-transform: uppercase;
+    font-size: 14px;
     font-weight: bold;
     color: #eeeeee;
     background-color: #b59f5b;
@@ -999,6 +1002,8 @@ img {
     .container {
         width: 100%;
         margin-right: 0;
+        padding: 0 35px;
+        box-sizing: border-box;
     }
 
     .header-title {
@@ -1016,7 +1021,8 @@ img {
     }
 
     .posts-wrp {
-        margin: 0;
+        margin:0;
+        margin-top: 50px;
         flex-direction: column;
         width: 100%;
     }
@@ -1024,7 +1030,7 @@ img {
     .posts {
         flex-direction: column;
         width: 100%;
-        padding: 0 35px;
+        /* padding: 0 35px; */
     }
 
     .post {
@@ -1053,7 +1059,7 @@ img {
     .servises {
         width: 100%;
         height: auto;
-        padding: 50px 35px;
+        padding: 0;
     }
 
     .servises:nth-child() {
@@ -1062,6 +1068,7 @@ img {
 
     .new-posts-wrp {
         width: 100%;
+        margin-top: 50px;
     }
 
     .new-posts {
@@ -1070,12 +1077,21 @@ img {
 
     .search {
         width: 100%;
-        margin: 0;
+        /* margin: 0; */
+    }
+
+    .search-form{
+        width: 100%;
+    }
+
+    .email form {
+        width: 100%;
     }
 
     .shop {
+        margin-top: 50px;
         height: auto;
-        padding: 0 35px;
+        
     }
 
     .shop-vitrina {
@@ -1143,18 +1159,25 @@ img {
 
     .posts-wrp {
         margin: 0;
+        justify-content: space-between;
+    }
+
+    .posts {
+        margin: 0;
+        width: 40vw;
     }
 
     .post {
         flex-direction: column;
         width: 40vw;
-        margin-left: 35px;
     }
 
     /* .posts {
         width: 50vw;
     } */
-
+    .post-img {
+        width: 100%;
+    }
     .post-content {
         margin-left: 0;
     }
@@ -1170,7 +1193,8 @@ img {
 
     .servises {
         padding-left: 0;
-        margin-right: 35px;
+        margin: 0;
+        /* margin-right: 35px; */
     }
 
     .shop {
