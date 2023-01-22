@@ -551,6 +551,7 @@ img {
 
 .tags {
     margin-bottom: 60px;
+    /* box-sizing: border-box; */
 }
 
 .tags-title {
@@ -586,12 +587,15 @@ img {
 }
 
 .tags-item {
-    border: 3px solid #f4f3f1;
+    /* border: 3px solid #f4f3f1; */
     margin-bottom: 6px;
     margin-right: 6px;
+    display: flex;
 }
 
 .tags-item a {
+    border: 3px solid #f4f3f1;
+
     color: black;
     font-size: 12px;
     font-weight: bold;
@@ -1222,8 +1226,17 @@ img {
     }
 }
 
-@media (orientation:portrait) and (min-width: 641px) and (max-width: 1200px) {
+@media (orientation:landscape) and (min-width: 641px) and (max-width: 1200px) {
     .trends-unit {
-        width: calc(50% - 2px);
+        width: calc(25% - 2px);
+    }
+
+    .trends-unit:nth-of-type(n+2) {
+        margin-left: 2px;
+    }
+
+    .trends-unit-text {
+        top: 0;
+        padding: 20px 20px ;
     }
 }
