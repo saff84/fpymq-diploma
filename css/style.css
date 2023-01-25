@@ -316,7 +316,7 @@ img {
 
 .post-date-author {
     padding-bottom: 55px;
-    display:flex;
+    display: flex;
 }
 
 .post-date,
@@ -817,7 +817,7 @@ img {
 
 
 
-._hidden{
+._hidden {
     visibility: hidden;
 }
 
@@ -1025,7 +1025,7 @@ img {
     }
 
     .posts-wrp {
-        margin:0;
+        margin: 0;
         margin-top: 50px;
         flex-direction: column;
         width: 100%;
@@ -1084,7 +1084,7 @@ img {
         /* margin: 0; */
     }
 
-    .search-form{
+    .search-form {
         width: 100%;
     }
 
@@ -1095,7 +1095,7 @@ img {
     .shop {
         margin-top: 50px;
         height: auto;
-        
+
     }
 
     .shop-vitrina {
@@ -1161,7 +1161,7 @@ img {
         margin-bottom: 2px;
     }
 
-      .posts-wrp {
+    .posts-wrp {
         margin: 0;
         justify-content: space-between;
     }
@@ -1182,6 +1182,7 @@ img {
     .post-img {
         width: 100%;
     }
+
     .post-content {
         margin-left: 0;
     }
@@ -1238,12 +1239,18 @@ img {
     .trends-unit-text {
         bottom: 0;
         left: 0;
-        padding: 1vw 1vw ;
+        padding: 1vw 1vw;
+        line-height: 2vw;
     }
 
-    .trend-unit-title a {
+    .trends-unit-category li {
         font-size: 1vw;
-        line-height: 1vw;
+        font-weight: bold;
+    }
+
+
+    .trend-unit-title a {
+        font-size: 1.3vw;
         font-weight: bold;
     }
 }
