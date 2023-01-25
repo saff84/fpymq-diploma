@@ -239,7 +239,7 @@ img {
     left: 0;
     border: 3px solid #b59f5b;
     margin: 15px 20px;
-    padding: 40px 33px;
+    padding: 32px;
     z-index: 2;
 }
 
@@ -1161,7 +1161,7 @@ img {
         margin-bottom: 2px;
     }
 
-    .posts-wrp {
+      .posts-wrp {
         margin: 0;
         justify-content: space-between;
     }
@@ -1236,7 +1236,14 @@ img {
     }
 
     .trends-unit-text {
-        top: 0;
-        padding: 20px 20px ;
+        bottom: 0;
+        left: 0;
+        padding: 1vw 1vw ;
+    }
+
+    .trend-unit-title a {
+        font-size: 1vw;
+        line-height: 1vw;
+        font-weight: bold;
     }
 }
