@@ -992,9 +992,25 @@ img {
         box-sizing: border-box;
     }
 
+    .menu-wrp {
+        flex-direction: column-reverse;
+    }
+
+    .nav-wrp {
+        align-self:flex-end;
+    }
+
+    .menu-logo {
+        margin-top: 90px;
+    }
+
+    .header-about-wrp {
+        margin-top: 40px;
+    }
+
     .header-title {
-        font-size: 40px;
-        line-height: 55px;
+        font-size: 26px;
+        line-height: 36px;
     }
 
     .trends-units-wrp {
@@ -1011,7 +1027,7 @@ img {
     }
 
     .trends-unit-text{
-        width: -webkit-fill-available;
+        /* width: -webkit-fill-available; */
     }
 
     .posts-wrp {
